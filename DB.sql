@@ -1,8 +1,7 @@
-# DB생성
-DROP DATABASE IF EXISTS examDB;
-
-CREATE DATABASE examDB;
-USE examDB;
+# DB 생성
+DROP DATABASE IF EXISTS demo;
+CREATE DATABASE demo;
+USE demo;
 
 # 회원 테이블 생성
 CREATE TABLE `user` (
